@@ -15,7 +15,3 @@ console.log(Object.getPrototypeOf(putchuca).constructor) // Output: [Function: O
 
 putchuca.hidratada = true
 console.log(putchuca) // Output: { hidratada: true }
-
-
-// Achieving classical inheritance
-// Instead of using prototype-based inheritance, you can use Object.create() to achieve classical inheritance results within Javascript.
