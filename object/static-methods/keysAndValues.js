@@ -11,3 +11,4 @@ const danceStyles = {
 }
 
 console.log(Object.keys(danceStyles))
+console.log(Object.values(danceStyles))
