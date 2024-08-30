@@ -5,7 +5,7 @@ const o = new TypeError;
 // getPrototypeOf returns the prototype of that object
 const proto = Object.getPrototypeOf;
 
-//hasOwn returns true if object has the indicated property as its own property
+// hasOwn returns true if object has the indicated property as its own property
 // here, it returns false because "o" inherits the constructor from TypeError.prototype
 Object.hasOwn(o, 'constructor') // false
 console.log(proto(o).constructor === TypeError) // true
