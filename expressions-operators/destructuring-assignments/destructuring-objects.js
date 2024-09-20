@@ -1,5 +1,5 @@
 // Object destructuring
-// Allows you to unpack objet properties into new variables
+// Allows you to unpack objcet properties into new variables
 
 const brasil = {
     estados: 27,
