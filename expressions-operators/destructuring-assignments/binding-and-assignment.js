@@ -14,7 +14,7 @@ console.log(d); // Output: 2
 
 
 // Assignment pattern
-// Happens when a variablehas already been declared, but now gets assigned toa new value.
+// Happens when a variable has already been declared, but now gets assigned to a new value.
 
 const numbers = [];
 const obj2 = { a: 1, b: 2 };
