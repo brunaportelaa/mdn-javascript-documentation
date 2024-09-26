@@ -43,3 +43,11 @@ console.log(bestAlbum, globalPopstarAlbum, bigRelease); // funk generation versi
 // Ignoring some returned values
 const [ latestRelease, secondLatestRelease, ,] = anitta();
 console.log( latestRelease, secondLatestRelease ) // funk generation versions of me
+
+// Using a binding pattern as the rest property
+const [ c, d, ...{ length }] = [ 1, 2, 3, 4, 5, 6] 
+console.log(c, d, length) // logs c, d, and the length of the new array [3, 4, 5, 6] crated using the rest property.
+
+// Array destructuring with nested rest
+const [ e, f, ...[g, h]] = [1, 2, 3, 4]
+console.log(e, f, g, h);
