@@ -24,7 +24,7 @@ console.log(obj1, obj2)
 
 // This substitution
 // When this is set to undefined or null, it gets the value of the global object via globalThis
-// If this is set to a primitive, it gets the wrapper object value
+// If 'this' is set to a primitive, it gets the wrapper object value
 
 Number.prototype.getThis = getThis
 console.log(typeof (1).getThis()) // object. The typeof operator wraps the primitive inside its wrapper object temporarily, hence why it is outputting "object"
